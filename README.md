@@ -28,8 +28,6 @@ cargo install cargo-espflash # Optional
 > brew install libuv
 > # Debian/Ubuntu/etc.
 > apt-get install libuv-dev
-> # Fedora
-> dnf install systemd-devel
 > ```
 > Also, the `espflash` and `cargo-espflash` commands shown below, assume that version `2.0` or
 > greater.
