@@ -51,8 +51,10 @@ cd <your-path-to-copyed-project>
 >esp32 board operates at a frequency of 2.4 GHz, so we connect to the 2.4 GHz network accordingly
 >
 
+So in "src/main.rs" change:
+
 ```rust
-ssid: "YOUR_SSID".into(),
+ssid: "YOUR_SSID"
 password: "YOUR_PASS"
 ```
 
