@@ -39,7 +39,7 @@ cargo install cargo-espflash # Optional
 
 ```sh
 git clone https://github.com/nikoincc/esp32-wifi-template-std.git
-cd <your-path-to-copyed-project>
+cd <your-path-to-copied-project>
 ```
 
 ## SSID setup
