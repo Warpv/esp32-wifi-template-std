@@ -42,6 +42,20 @@ git clone https://github.com/nikoincc/esp32-wifi-template-std.git
 cd <your-path-to-copyed-project>
 ```
 
+## SSID setup
+
+> **Note**
+>
+>in main you need to change 
+>SSID and PASS to acsess
+>esp32 board operates at a frequency of 2.4 GHz, so we connect to the 2.4 GHz network accordingly
+>
+
+```rust
+ssid: "YOUR_SSID".into(),
+password: "YOUR_PASS"
+```
+
 ## Build
 
 ```sh
